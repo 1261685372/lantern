@@ -1,4 +1,4 @@
-FROM ubuntu:22.10
+FROM ubuntu:20.04
 MAINTAINER Richard Yu <xiaoqingfengatgm@gmail.com>
 # https://github.com/xiaoqingfengATGH/lantern
 # lastest lantern version: 7.4.0
