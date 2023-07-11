@@ -5,7 +5,7 @@ MAINTAINER Richard Yu <xiaoqingfengatgm@gmail.com>
 WORKDIR /root
 RUN apt-get update  && \
          apt-get -y install wget libappindicator3-1 libpcap0.8:amd64 && \
-	 wget -O lantern.deb https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb?ver=7.4.0 && \
+	 wget -O lantern.deb https://github.com/getlantern/lantern-binaries/raw/main/lantern-installer-64-bit.deb?ver=7.4.0 && \
 	 wget -O settings.yaml https://raw.githubusercontent.com/xiaoqingfengATGH/lantern/master/settings.yaml?ver=7.4.0 && \
          dpkg -i lantern.deb && \
          rm -rf lantern.deb && \
